@@ -9,6 +9,7 @@ namespace BorderControl
         {
             string[] input = Console.ReadLine().Split();
             var list = new List<string>();
+            Console.WriteLine();
 
             while(input[0] != "End")
             {
